@@ -49,6 +49,7 @@ section.main-background {
     padding: 10%;
 }
 
+/*<titles>*/
 h1.main-title {
     background: rgba(0, 0, 0, 0.25);
     display: inline-block;
@@ -57,13 +58,55 @@ h1.main-title {
     width: 600px;
 }
 
-.main-title, .secondary-title {
+h3, h4, h5, a {
+    color: rgb(124, 128, 129);
     font-family: MerriweatherRegular, serif;;
 }
 
-h4.secondary-title {
-    color: rgb(124, 128, 129);
-    font-size: 20px;
+.h3-title, .h4-title {
     text-align: center;
     width: 100%;
 }
+
+.h4-title {
+    font-size: 20px;
+}
+
+.h3-title {
+    font-size: 24px;
+}
+/*</titles>*/
+
+/*<icons-list>*/
+ul.icons-list {
+    display: block;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+ul.icons-list li {
+    display: inline-block;
+}
+ul.icons-list li a {
+    display: inline-block;
+    text-align: center;
+    padding-top: 150px;
+    width: 200px;
+}
+
+ul.icons-list li a:hover {
+    color: black;
+}
+
+ul.icons-list li a.idea-icon {
+    background: url("images/idea-icon.jpg") 30px 0 no-repeat;
+}
+ul.icons-list li a.project-icon {
+    background: url("images/project-icon.png") 30px 0 no-repeat;
+}
+ul.icons-list li a.business-icon {
+    background: url("images/business-icon.jpg") 30px 0 no-repeat;
+}
+/*</icons-list>*/
