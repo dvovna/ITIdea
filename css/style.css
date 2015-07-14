@@ -1,21 +1,22 @@
-/*@font-face {*/
-    /*font-family: "MerriweatherRegular";*/
-    /*src: url("fonts/MerriweatherRegular/MerriweatherRegular.eot");*/
-    /*src: url("fonts/MerriweatherRegular/MerriweatherRegular.eot?#iefix")format("embedded-opentype"),*/
-    /*url("fonts/MerriweatherRegular/MerriweatherRegular.woff") format("woff"),*/
-    /*url("fonts/MerriweatherRegular/MerriweatherRegular.ttf") format("truetype");*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-/*}*/
-
 @charset "UTF-8";
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+@font-face {
+    font-family: "MerriweatherRegular";
+    src: url("../fonts/MerriweatherRegular/MerriweatherRegular.eot");
+    src: url("../fonts/MerriweatherRegular/MerriweatherRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MerriweatherRegular/MerriweatherRegular.woff") format("woff"),
+    url("../fonts/MerriweatherRegular/MerriweatherRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 body {
     margin: 0;
     position: relative;
     min-width: 1024px;
+    font-family: 'Lato', serif;
 }
 
 header {
@@ -35,12 +36,6 @@ header a.main-logo {
     border-radius: 10000px;
     width: 150px;
     height: 45px;
-}
-
-section.content {
-    position: absolute;
-    left: 0;
-    right: 0;
 }
 
 section.main-background {
@@ -63,7 +58,7 @@ h1.main-title {
     width: 600px;
 }
 
-h3, h4, h5, a {
+h3, h4, h5, a, p {
     color: rgb(124, 128, 129);
     font-family: 'Lato', serif;;
 }
@@ -87,6 +82,7 @@ ul.icons-list {
     display: block;
     text-align: center;
     padding: 0;
+    margin-bottom: 50px;
     list-style: none;
     width: 100%;
 }
@@ -115,3 +111,34 @@ ul.icons-list li a.business-icon {
     background: url("../images/business-icon.jpg") 30px 2px no-repeat;
 }
 /*</icons-list>*/
+
+/*test-section*/
+.text-section {
+    display: block;
+    /*background-color: rgba(151, 152, 150, 0.07);*/
+    background-color: #b8611b;
+    /*background-color: #645862;*/
+    color: white;
+    clear: both;
+    padding: 10px 10%;
+    width: 80%;
+}
+
+.text-section p {
+    color: white;
+}
+
+.text-title {
+    font-family: 'MerriweatherRegular', arial;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/*footer*/
+footer {
+    display: block;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
