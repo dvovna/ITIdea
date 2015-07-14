@@ -107,6 +107,6 @@ ul.icons-list li a.project-icon {
     background: url("images/project-icon.png") 30px 0 no-repeat;
 }
 ul.icons-list li a.business-icon {
-    background: url("images/business-icon.jpg") 30px 0 no-repeat;
+    background: url("images/business-icon.jpg") 30px 2px no-repeat;
 }
 /*</icons-list>*/
