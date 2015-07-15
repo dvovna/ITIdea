@@ -60,7 +60,7 @@ h1.main-title {
 
 h3, h4, h5, a, p {
     color: rgb(124, 128, 129);
-    font-family: 'Lato', serif;;
+    font-family: 'Lato', serif;
 }
 
 .h3-title, .h4-title {
@@ -90,50 +90,89 @@ ul.icons-list {
 ul.icons-list li {
     display: inline-block;
 }
-ul.icons-list li a {
+
+.icon {
     display: inline-block;
     text-align: center;
     padding-top: 150px;
     width: 200px;
 }
 
-ul.icons-list li a:hover {
+.small-icon {
+    background-size: 50%;
+    background-position: 25px 0;
+    padding-top: 75px;
+    width: 100px;
+}
+
+.icon:hover {
     color: black;
 }
 
-ul.icons-list li a.idea-icon {
-    background: url("../images/idea-icon.jpg") 30px 0 no-repeat;
+.icon.idea-icon {
+    background-image: url("../images/idea-icon.jpg");
+    background-position:  30px 0;
+    background-repeat: no-repeat;
 }
-ul.icons-list li a.project-icon {
-    background: url("../images/project-icon.png") 30px 0 no-repeat;
+.icon.project-icon {
+    background: url("../images/project-icon.png");
+    background-position:  30px 0;
+    background-repeat: no-repeat;
 }
-ul.icons-list li a.business-icon {
-    background: url("../images/business-icon.jpg") 30px 2px no-repeat;
+.icon.business-icon {
+    background: url("../images/business-icon.jpg");
+    background-position:  30px 2px;
+    background-repeat: no-repeat;
 }
 /*</icons-list>*/
 
-/*test-section*/
+/*<test-section>*/
 .text-section {
-    display: block;
-    /*background-color: rgba(151, 152, 150, 0.07);*/
-    background-color: #b8611b;
-    /*background-color: #645862;*/
-    color: white;
+    background-color: #fafafa;
     clear: both;
     padding: 10px 10%;
+    margin-bottom: 10px;
     width: 80%;
 }
 
 .text-section p {
-    color: white;
+    color: rgb(51, 51, 51);
 }
 
 .text-title {
-    font-family: 'MerriweatherRegular', arial;
+    font-family: 'MerriweatherRegular', serif;
     font-size: 14px;
     margin-bottom: 5px;
+    color: black;
+}
+/*</text-section>*/
+
+/*<idea-section>*/
+.idea-section {
+    text-align: center;
+    width: 100%;
+}
+
+.idea-section .text-section {
+    background-color: #b8611b;
+    text-align: left;
+}
+
+.idea-section .text-section h5,
+.idea-section .text-section p,
+.idea-section .text-section ul li,
+.idea-section .text-section ol li{
     color: white;
 }
+
+/*</idea-section>*/
+
+
+
+
+
+
+
 
 /*footer*/
 footer {
