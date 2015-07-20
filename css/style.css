@@ -98,7 +98,7 @@ ul.icons-list li {
     width: 200px;
 }
 
-.small-icon {
+.icon.small-icon {
     background-size: 50%;
     background-position: 25px 0;
     padding-top: 75px;
@@ -109,17 +109,17 @@ ul.icons-list li {
     color: black;
 }
 
-.icon.idea-icon {
+.idea-icon {
     background-image: url("../images/idea-icon.jpg");
     background-position:  30px 0;
     background-repeat: no-repeat;
 }
-.icon.project-icon {
+.project-icon {
     background: url("../images/project-icon.png");
     background-position:  30px 0;
     background-repeat: no-repeat;
 }
-.icon.business-icon {
+.business-icon {
     background: url("../images/business-icon.jpg");
     background-position:  30px 2px;
     background-repeat: no-repeat;
@@ -147,26 +147,40 @@ ul.icons-list li {
 }
 /*</text-section>*/
 
-/*<idea-section>*/
-.idea-section {
+/*<description-section>*/
+.description-section {
+    padding: 10px 0;
     text-align: center;
     width: 100%;
 }
-
-.idea-section .text-section {
-    background-color: #b8611b;
+.description-section .text-section {
     text-align: left;
 }
+/*</description-section>*/
 
-.idea-section .text-section h5,
-.idea-section .text-section p,
-.idea-section .text-section ul li,
-.idea-section .text-section ol li{
+/*<idea-section>*/
+.idea-section.text-section {
+    background-color: #b8611b;
+}
+
+.idea-section.text-section h5,
+.project-section.text-section h5,
+.idea-section.text-section p,
+.project-section.text-section p,
+.idea-section.text-section ul li,
+.project-section.text-section ul li,
+.idea-section.text-section ol li,
+.project-section.text-section ol li {
     color: white;
 }
 
 /*</idea-section>*/
 
+/*<project-section>*/
+.project-section.text-section {
+    background-color: #645862;
+}
+/*</project-section>*/
 
 
 
