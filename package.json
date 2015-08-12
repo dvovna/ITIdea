@@ -1,0 +1,28 @@
+{
+  "name": "judge",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvovna/ITIdea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvovna/ITIdea/issues"
+  },
+  "homepage": "https://github.com/dvovna/ITIdea",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-watch": "^4.3.4",
+    "path": "^0.11.14"
+  }
+}
