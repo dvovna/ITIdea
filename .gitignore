@@ -1,3 +1,4 @@
 *.name
-.idea/workspace.xml
-.idea/modules.xml
+.idea
+css/style.css
+node_modules
