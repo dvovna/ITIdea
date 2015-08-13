@@ -2,3 +2,7 @@
 .idea
 css/style.css
 node_modules
+.idea/libraries/ITIdea_node_modules.xml
+*.iml
+.idea/misc.xml
+*.css
