@@ -1,23 +1,81 @@
-section.main-background {
-    display: block;
-    color: white;
-    text-align: left;
-    background: url("../images/1.jpg") 50% 0 no-repeat white;
-    margin: 0;
-    padding: 8% 2%;
-}
+.main-page {
+    section.main-background {
+        display: block;
+        color: white;
+        text-align: left;
+        background: url("../images/1.jpg") 50% 0 no-repeat white;
+        margin: 0;
+        padding: 8% 2%;
+    }
 
-/*<titles>*/
-h1.main-title {
-    background: rgba(0, 0, 0, 0.35);
-    display: inline-block;
-    font-family: 'Lato', serif;;
-    padding: 40px;
-    text-align: center;
-    margin-left: 5%;
-    font-size: 38px;
-    width: 400px;
-    .btn {
-        margin-top: 10px;
+    /*<titles>*/
+    h1.main-title {
+        background: rgba(0, 0, 0, 0.35);
+        border-radius: 5px;
+        display: inline-block;
+        font-family: 'Lato', serif;;
+        padding: 40px;
+        text-align: center;
+        margin-left: 5%;
+        font-size: 38px;
+        width: 400px;
+        .btn {
+            margin-top: 10px;
+        }
+    }
+
+    .dispute-list-container {
+        display: block;
+        padding: 2% 5%;
+        width: 90%;
+        .list {
+            display: block;
+            overflow: hidden;
+            height: 160px;
+            list-style: none;
+            width: 100%;
+            &.extended {
+                height: auto;
+            }
+        }
+
+        .list li {
+            display: inline-block;
+            margin: 20px;
+            float: left;
+            height: 140px;
+            width: 150px;   
+        }
+
+        .list li a {
+            display: block;
+            position: relative;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .list li a img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .view-all {
+            display: block;
+            background: rgba(0, 0, 0, 0.15);
+            padding-top: 5px;
+            height: 20px;
+            width: 100%;
+            &:before {
+                display: block;
+                margin: 0 auto;
+                content: ' ';
+                border: 12px solid transparent;
+                border-top-color: rgba(0, 0, 0, 0.35); 
+                border-bottom: 0;
+                height: 20px;
+                width: 0px;
+            }
+        }
     }
 }

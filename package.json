@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dvovna/ITIdea",
   "dependencies": {
+    "bower": "^1.4.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-less": "^3.0.3",
