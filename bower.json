@@ -1,0 +1,20 @@
+{
+  "name": "judgeme",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dvovna/ITIdea",
+  "authors": [
+    "dvovna <d.vovna.dv@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
