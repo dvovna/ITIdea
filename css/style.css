@@ -93,10 +93,16 @@ footer {
   /* Standard syntax */
   display: block;
   margin-top: 40px;
+  line-height: 60px;
+  text-indent: 30px;
+  font-size: 8px;
   height: 60px;
   width: 100%;
 }
-section.main-background {
+.main-page {
+  /*<titles>*/
+}
+.main-page section.main-background {
   display: block;
   color: white;
   text-align: left;
@@ -104,9 +110,9 @@ section.main-background {
   margin: 0;
   padding: 8% 2%;
 }
-/*<titles>*/
-h1.main-title {
+.main-page h1.main-title {
   background: rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
   display: inline-block;
   font-family: 'Lato', serif;
   padding: 40px;
@@ -115,6 +121,57 @@ h1.main-title {
   font-size: 38px;
   width: 400px;
 }
-h1.main-title .btn {
+.main-page h1.main-title .btn {
   margin-top: 10px;
+}
+.main-page .dispute-list-container {
+  display: block;
+  padding: 2% 5%;
+  width: 90%;
+}
+.main-page .dispute-list-container .list {
+  display: block;
+  overflow: hidden;
+  height: 160px;
+  list-style: none;
+  width: 100%;
+}
+.main-page .dispute-list-container .list.extended {
+  height: auto;
+}
+.main-page .dispute-list-container .list li {
+  display: inline-block;
+  margin: 20px;
+  float: left;
+  height: 140px;
+  width: 150px;
+}
+.main-page .dispute-list-container .list li a {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+}
+.main-page .dispute-list-container .list li a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.main-page .dispute-list-container .view-all {
+  display: block;
+  background: rgba(0, 0, 0, 0.15);
+  padding-top: 5px;
+  height: 20px;
+  width: 100%;
+}
+.main-page .dispute-list-container .view-all:before {
+  display: block;
+  margin: 0 auto;
+  content: ' ';
+  border: 12px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.35);
+  border-bottom: 0;
+  height: 20px;
+  width: 0px;
 }
