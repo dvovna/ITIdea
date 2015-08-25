@@ -108,7 +108,10 @@ header .enter-with-list {
   top: 100px;
 }
 header .enter-with-list li {
-  background: url('../images/social-icons/vk.jpg') 0 0 no-repeat rgba(211, 211, 211, 0.25);
+  background-size: 100%;
+  background-color: rgba(211, 211, 211, 0.25);
+  background-repeat: no-repeat;
+  background-position: 0 0;
   color: transparent;
   cursor: pointer;
   display: block;
@@ -117,6 +120,9 @@ header .enter-with-list li {
   width: 40px;
   -webkit-transition: background 1s ease;
           transition: background 1s ease;
+}
+header .enter-with-list li.vk-icon {
+  background-image: url('../images/social-icons/vk.png');
 }
 /*footer*/
 footer {
@@ -176,7 +182,6 @@ footer {
   overflow: hidden;
   height: 160px;
   list-style: none;
-  width: 100%;
 }
 .main-page .dispute-list-container .list.extended {
   height: auto;

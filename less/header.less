@@ -18,7 +18,10 @@ header .enter-with-list {
     right: 0;
     top: 100px;
     li {
-        background: url('../images/social-icons/vk.jpg') 0 0 no-repeat rgba(211, 211, 211, 0.25);
+        background-size: 100%;
+        background-color: rgba(211, 211, 211, 0.25);
+        background-repeat: no-repeat;
+        background-position: 0 0;
         color: transparent;
         cursor: pointer;
         display: block;
@@ -26,5 +29,8 @@ header .enter-with-list {
         height: 40px;
         width: 40px;
         transition: background 1s ease;
+        &.vk-icon {
+            background-image: url('../images/social-icons/vk.png');
+        }
     }
 }
