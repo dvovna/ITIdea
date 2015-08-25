@@ -44,7 +44,7 @@ p {
 form {
   display: block;
   background: rgba(0, 0, 0, 0.35);
-  padding: 20px;
+  padding: 20px 30px 30px;
 }
 form > label {
   display: block;
@@ -171,6 +171,12 @@ footer {
 .main-page h1.main-title.extended form.create-form {
   display: block;
   margin: 20px 0;
+  overflow: hidden;
+  height: 160px;
+  list-style: none;
+}
+.main-page h1.main-title.extended form.create-form.extended {
+  height: auto;
 }
 .main-page .dispute-list-container {
   display: block;
