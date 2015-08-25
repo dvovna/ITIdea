@@ -1,0 +1,32 @@
+form {
+	display: block;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+
+	> label {
+		display: block;
+		position: relative;
+		clear: both;
+		text-align: left;
+		padding-right: 65%;
+		font-size: 16px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin: 20px 0px;
+	}
+
+	label > input {
+		border-radius: 30px;
+		border: none;
+		padding: 10px;
+		font-size: 18px;
+		position: absolute;
+		right: 5%;
+		top: 0;
+		width: 60%;
+		outline: none;
+		&:focus {
+			box-shadow: 0px 0px 8px white;
+		}
+	}
+}

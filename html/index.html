@@ -23,9 +23,24 @@
 
 <section class="content">
     <section class="main-background">
-        <h1 class="main-title">
+        <h1 id="#create-new" class="main-title">
             Вы найдете справедливость здесь:
-            <a class="btn main-btn">Открыть спор</a>
+
+            <form href="#" class="create-form hidden">
+                <h2 class="h2-title">Создайте спор что бы получить возможность осудить кого либо или что либо:</h2>
+
+                <label>
+                    Интернет против:
+                    <input type="text" name="subject"/>
+                </label>
+
+                <label>
+                    Введите вопрос о виновности:
+                    <input type="text" placeholder="Виновен ли Дима в лентяйстве?"/>  
+                </label>
+            </form>
+
+            <a href="#create-new" id="create-new" class="btn main-btn">Открыть спор</a>
         </h1>
     </section>
 
@@ -151,10 +166,13 @@
 <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../js/simple-toggler.js"></script>
 
+<script type="text/javascript" src="../js/main.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function () {
         $(".view-all").simpleToggler();
+
+        $("#create-new").createForm();
     });
 </script>
 </body>
