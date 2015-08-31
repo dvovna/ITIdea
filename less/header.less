@@ -4,8 +4,37 @@ header {
     background: -moz-linear-gradient(top, white, lightgray); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to top, white, lightgray); /* Standard syntax */
     margin: 0;
+    position: relative;
     height: 45px;
     width: 100%;
+
+    a.main-logo {
+        display: inline-block;
+        padding: 20px;
+        margin: 5px 10px;
+        position: absolute;
+        left: 10px;
+        background: url('../images/logo-1.png') transparent 0 0 no-repeat;
+        background-size: 100%;
+    }
+
+    a.account-link {
+        display: block;
+        cursor: pointer;
+        float: right;
+        line-height: 45px;
+        margin-right: -86px;
+        transition: all 1s ease;
+        height: 100%;
+        >img {
+            margin-right: 8px;
+            float: left;
+        }
+        &:hover {
+            color: black;
+            margin-right: 10px;
+        }
+    }
 }
 
 header .enter-with-list {
